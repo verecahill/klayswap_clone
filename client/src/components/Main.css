@@ -1,0 +1,111 @@
+main {
+  width: 800px;
+  margin: auto;
+  margin-top: 105px;
+}
+
+.main-text {
+  font-size: 28px;
+  font-weight: 700;
+}
+
+.text-strong {
+  color: #e66d16;
+}
+
+.ticket section:nth-child(1) {
+  width: calc(100% - 180px);
+  padding: 30px 40px;
+  border: 1px solid #eee;
+}
+
+.ticket section:nth-child(2) {
+  width: 180px;
+  text-align: right;
+  padding: 30px;
+  cursor: pointer;
+  line-height: 1.4;
+  background: #b39c7d;
+  font-size: 26px;
+  font-weight: 700;
+  color: #fff;
+}
+
+.card-item label {
+  font-size: 1rem !important;
+  color: #b39c7d;
+  font-weight: 700;
+  padding: 0;
+}
+
+.card-item span {
+  display: inline-block;
+}
+
+.card-item input {
+  width: calc(100% - 70px);
+  padding-bottom: 0;
+  font-size: 24px;
+  border: none;
+  -webkit-appearance: none;
+  outline: 0 none;
+  margin-right: 10px;
+}
+
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.token-img {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  box-shadow: 0 2px 4px 0 rgb(0 0 0 / 10%);
+  display: inline-block;
+  margin-left: 10px;
+}
+
+.token-img img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+}
+.exchange {
+  margin: 20px 0;
+  display: flex;
+}
+
+.ticket {
+  display: flex;
+  height: 320px;
+  margin-top: 30px;
+}
+
+.sub-text {
+  font-size: 12px;
+  color: #b39c7d;
+  font-weight: 500;
+}
+
+.sub-text span:nth-child(1) {
+  margin-right: 10px;
+}
+.sub-text2 {
+  font-size: 12px;
+  color: #6f6558;
+  font-weight: 500;
+  margin-left: auto;
+  margin-right: 5px;
+}
+
+.final-part {
+  display: flex;
+}
+
+.change-icon {
+  display: flex;
+  justify-content: right;
+  margin-right: 6px;
+  margin-top: 30px;
+}

@@ -1,0 +1,65 @@
+.header {
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: right;
+  margin: 0 20px;
+  border-bottom: 1px solid #ebeef2;
+}
+
+.text {
+  font-size: 12px;
+  color: #b39c7d;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.text2 {
+  color: #b39c7d;
+  font-size: 12px;
+  margin-left: 5px;
+}
+
+.sharp {
+  font-size: 12px;
+}
+
+.green {
+  color: #6ad0ba;
+}
+
+.network {
+  margin: 0 20px;
+  padding: 0px 20px;
+  border-right: 1px solid #dee3eb;
+  border-left: 1px solid #dee3eb;
+  line-height: 1;
+}
+
+.ic-status {
+  display: inline-block;
+  background: #6ad0ba;
+  animation: pulseHealth 2s ease-out infinite;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  font-size: 7px;
+  margin-top: 1px;
+  margin-right: 10px;
+}
+
+@keyframes pulseHealth {
+  0% {
+    box-shadow: 0 0 0 0 rgb(106 208 186 / 10%);
+  }
+  70% {
+    box-shadow: 0 0 0 1em rgb(106 208 186 / 20%);
+  }
+  100% {
+    box-shadow: 0 0 0 0 rgb(106 208 186 / 30%);
+  }
+}
